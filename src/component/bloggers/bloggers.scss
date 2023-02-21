@@ -1,0 +1,33 @@
+.bloggers{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+
+    &-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 200px;
+        height: 100px;
+        align-items: center;
+        border: 1px solid cyan;
+        border-radius: 10px;
+        background-color: antiquewhite;
+        margin: 20px 0 0 10px;
+
+        &-button{
+            width: fit-content;
+            height: 30px;
+            background-color: rgb(67, 69, 174);
+            color: white;
+            font-weight: 600;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+
+    }
+}
